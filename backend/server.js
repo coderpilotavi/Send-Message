@@ -36,5 +36,5 @@ app.get("/api/getMessages", (req, res) => {
 
 // Start the Server
 app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:5000`);
+    console.log(`Server is running on https://send-message-5iko.onrender.com`);
 });
