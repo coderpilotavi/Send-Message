@@ -7,7 +7,7 @@ document.getElementById('submitBtn').addEventListener('click', async () => {
         return;
     }
 
-    const response = await fetch("http://localhost:5000/api/sendMessage", {
+    const response = await fetch("https://send-message-5iko.onrender.com", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, message }),

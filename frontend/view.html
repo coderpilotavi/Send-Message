@@ -19,7 +19,7 @@
 
     <script>
         async function fetchMessages() {
-            const response = await fetch("http://localhost:5000/api/getMessages");
+            const response = await fetch("https://send-message-5iko.onrender.com");
             const messages = await response.json();
 
             const confessionsDiv = document.getElementById("confessions");
